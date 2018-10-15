@@ -5,9 +5,26 @@
 header {
     margin: 0;
     padding-top: 20px;
-    padding-bottom: 20px;
-    background-color: #708090;
-    color: #ffffff;
+    background-color: #696969;
+    color: #F5F5DC;
     font-family: "Exo", sans-serif;
     text-align: center;
 }
+
+
+
+
+
+
+/*------------------------------footer*/
+
+footer{
+    margin:0;
+    padding-top: 20px;
+    background-color: #696969;
+    color: #F5F5DC;
+    font-family: "Exo", sans-serif;
+    text-align: center;
+}
+
+
