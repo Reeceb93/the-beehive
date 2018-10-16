@@ -4,6 +4,7 @@
 
 header {
     margin: 0;
+    margin-bottom: 0;
     padding-top: 20px;
     background-color: #696969;
     color: #F5F5DC;
@@ -11,6 +12,47 @@ header {
     text-align: center;
 }
 
+h2 {
+    padding-bottom: 20px;
+}
+
+/*------------------------------Navbar*/
+
+.navbar{
+    display: inline-block;
+    color: #F5F5DC;
+    padding:20px;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 20px;
+    font-family: "Exo", sans-serif;
+}
+
+
+    
+
+
+
+
+
+/*------------------------------Content*/
+
+section {
+    background-color: #FAEBD7;
+   margin: 0;
+}
+
+.welcome {
+    
+    font-family: "Exo", sans-serif;
+    text-align: center;
+}
+
+
+.welcome p {
+    display: inline-block;
+    
+}
 
 
 
@@ -26,5 +68,7 @@ footer{
     font-family: "Exo", sans-serif;
     text-align: center;
 }
+
+
 
 
