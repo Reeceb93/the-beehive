@@ -18,18 +18,22 @@ h2 {
 
 /*------------------------------Navbar*/
 
-.navbar{
+.navbar {
     display: inline-block;
-    color: #F5F5DC;
-    padding:20px;
+    padding: 20px;
     text-decoration: none;
     text-transform: capitalize;
     font-size: 20px;
     font-family: "Exo", sans-serif;
+
+}
+
+ul li a {
+    color: #f5f5dc;
 }
 
 
-    
+
 
 
 
@@ -39,36 +43,35 @@ h2 {
 
 section {
     background-color: #FAEBD7;
-   margin: 0;
+    margin: 0;
 }
 
 .welcome {
-    
+
     font-family: "Exo", sans-serif;
-    text-align: center;
+    text-align: right;
+    padding-right: 100px;
 }
 
 
-.welcome p {
-    display: inline-block;
-    
+.welcome-para {
+    text-align: right;
 }
 
-
-
+img {
+    padding-bottom: 100px;
+    padding-top: 50px;
+    width: auto;
+}
 
 
 /*------------------------------footer*/
 
-footer{
-    margin:0;
-    padding-top: 20px;
+footer {
+    margin: 0;
+    height: 150px;
     background-color: #696969;
     color: #F5F5DC;
     font-family: "Exo", sans-serif;
     text-align: center;
 }
-
-
-
-
