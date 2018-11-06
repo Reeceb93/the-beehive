@@ -4,13 +4,16 @@
 
 header {
     margin: 0;
-    margin-bottom: 0;
     padding-top: 20px;
-    background-color: #696969;
     color: #F5F5DC;
     font-family: "Exo", sans-serif;
     text-align: center;
+    background-image:url("headerPic.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
 }
+
 
 h2 {
     padding-bottom: 20px;
@@ -19,17 +22,25 @@ h2 {
 /*------------------------------Navbar*/
 
 .navbar {
-    display: inline-block;
     padding: 20px;
     text-decoration: none;
     text-transform: capitalize;
     font-size: 20px;
     font-family: "Exo", sans-serif;
+    
 
 }
 
-ul li a {
+.navbar li{
+    display: block;
+    list-style: none;
+    
+}
+
+.navbar ul li a {
     color: #f5f5dc;
+    display: block;
+
 }
 
 
@@ -44,6 +55,7 @@ ul li a {
 section {
     background-color: #FAEBD7;
     margin: 0;
+    
 }
 
 .welcome {
@@ -55,14 +67,15 @@ section {
 
 
 .welcome-para {
-    text-align: right;
+    text-align: center;
 }
 
 img {
     padding-bottom: 100px;
     padding-top: 50px;
-    width: auto;
+    width: 75%;
 }
+
 
 
 /*------------------------------footer*/
@@ -75,3 +88,12 @@ footer {
     font-family: "Exo", sans-serif;
     text-align: center;
 }
+
+.social-links li a {
+    color: #F5F5DC;
+}
+
+
+
+
+
